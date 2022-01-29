@@ -11,6 +11,7 @@ dependencies = [
  "cfg-if",
  "cipher",
  "cpufeatures",
+ "ctr",
  "opaque-debug",
 ]
 
@@ -75,7 +76,6 @@ version = "1.0.0"
 dependencies = [
  "aes",
  "cipher",
- "ctr",
 ]
 
 [[package]]
