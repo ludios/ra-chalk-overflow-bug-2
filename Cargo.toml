@@ -1,0 +1,13 @@
+[package]
+name = "ra-chalk-overflow-bug"
+version = "1.0.0"
+edition = "2021"
+authors = ["Ivan Kozik <ivan@ludios.org>"]
+
+[dependencies]
+aes = "0.7"
+ctr = "0.8"
+cipher = "0.3"
+futures = "0.3"
+futures-async-stream = "0.2"
+#futures-async-stream = { git = "https://github.com/taiki-e/futures-async-stream" }
