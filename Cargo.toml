@@ -5,5 +5,6 @@ edition = "2021"
 authors = ["Ivan Kozik <ivan@ludios.org>"]
 
 [dependencies]
-aes = { version = "0.7", features = ["ctr"] }
+aes = "0.7"
+ctr = "0.8"
 cipher = "0.3"
